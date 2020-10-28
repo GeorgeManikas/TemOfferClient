@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #e2e8f0; /* bg-gray-300 change when change background of divs */
+}
+
+@layer components {
+  .switch {
+    
+  }
+  
+  
+  
+}
+@media (min-width : 640px){
+  .switch {
+    --transform-scale-x : 0.9;
+    --transform-scale-y : .68
+  }}
+@media (min-width : 768px){
+    .switch {
+      clip-path: inset(1.7em 0.3em 1.8em 3.3em)
+    }}
+@media (min-width : 1024px){
+      .switch {
+        clip-path: inset(3em 0em 1.8em 3.3em)
+      }
+    }
