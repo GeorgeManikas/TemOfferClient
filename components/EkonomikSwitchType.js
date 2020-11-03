@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
 import SwitchContext from "../context/SwitchContext";
 import { FETCH_INDIVIDUAL_SWITCH, SELECTED_SWITCH_TYPE } from '../context/types'
-import fetch from "isomorphic-unfetch";
+
 
 const EkonomikSwitchType = () => {
   const [switchTypes, setSwitchTypes] = useState([]);
