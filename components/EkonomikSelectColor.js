@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react'
 import getConfig from 'next/config'
 import SwitchContext from '../context/SwitchContext'
 import { SELECTED_COLOR, FETCH_INDIVIDUAL_SWITCH } from '../context/types'
-import fetch from 'isomorphic-unfetch'
+
 const EkonomikSelectColor = () => {
     const { publicRuntimeConfig } = getConfig()
     const {API_URL} = publicRuntimeConfig 
