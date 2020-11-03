@@ -16,7 +16,7 @@ const EkonomikSwitchType = () => {
   useEffect(() => {
     const fetchSwitchTypes = async () => {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/ekonomik-switches`
+        `https://tem-offer-roundboxes.herokuapp.com/ekonomik-switches`
       );
       const data = await response.json();
       setSwitchTypes(data);
