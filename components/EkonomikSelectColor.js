@@ -17,7 +17,7 @@ const EkonomikSelectColor = () => {
 
     useEffect(()=> {
         const fetchColors = async () => {
-            const res = await fetch(`${API_URL}/switch-colors?series.serie=${value.serie}`)
+            const res = await fetch(`https://tem-offer-roundboxes.herokuapp.com/switch-colors?series.serie=${value.serie}`)
             const data = await res.json()
             setColor(data)
         }
