@@ -13,7 +13,7 @@ const index = ( {products, image   }) => {
 export const getStaticProps = async () => {
     const { publicRuntimeConfig} = getConfig();
     const { API_URL } = publicRuntimeConfig
-    const response = await fetch(`${API_URL}/Ekonomik-products`)
+    const response = await fetch(`${API_URL}/Ekonomik-products_limit=150`)
     const data = await response.json()
     
 

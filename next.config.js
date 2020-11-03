@@ -7,6 +7,6 @@ module.exports = {
     publicRuntimeConfig: {
       // Will be available on both server and client
       staticFolder: '/static',
-      API_URL : 'http://localhost:1337'
+      API_URL : 'https://tem-offer-roundboxes.herokuapp.com'
     },
   }
