@@ -10,7 +10,7 @@ const index = ( {products, image   }) => {
     )
 }
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
     const { publicRuntimeConfig} = getConfig();
     const { API_URL } = publicRuntimeConfig
     const response = await fetch(`${API_URL}/Ekonomik-products?_limit=150`)
