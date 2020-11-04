@@ -17,7 +17,7 @@ const SeriesPicker = ({ series }) => {
               className="flex flex-row w-full  md:w-4/6 lg:w-3/6 justify-between mx-auto   p-8 m-8 text-center text-4xl items-baseline cursor-pointer text-gray-800 bg-orange-500  rounded-md shadow-md 
                     hover:bg-orange-600 hover:shadow-xl"
             >
-              <div> {serie.serie} </div>
+              
               <div>
                 {" "}
                 <img src={serie.image} alt={serie.image} />{" "}
